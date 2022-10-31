@@ -1,0 +1,128 @@
+@media (min-width: 1440px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .log{
+        margin-left: 650px;
+        margin-top: 170px;
+    }
+    .boxa{
+        display: flex;
+    }
+    .image2{
+        margin: 0;
+    }
+    .pic{
+        text-align: center;
+    }
+    .ilike{
+        font-size: 10px;
+    }
+    .login{
+
+    }
+}
+@media (max-width: 1200px ){
+
+}
+@media (min-width: 1024px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .log{
+        margin-left: 650px;
+        margin-top: 170px;
+    }
+    .boxa{
+        display: block;
+    }
+    .image2{
+        margin: 0;
+    }
+    .pic{
+        text-align: center;
+    }
+    .ilike{
+        font-size: 10px;
+    }
+    .login #kik{
+    display: none;
+    }
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .log{
+        margin-left: 650px;
+        margin-top: 170px;
+    }
+    .boxa{
+        display: block;
+    }
+    .image2{
+        margin: 0;
+    }
+    .pic{
+        text-align: center;
+    }
+    .ilike{
+        font-size: 10px;
+    }
+    .login{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+
+}
+@media (max-width: 450px){
+
+}
+@media (max-width: 400px){
+
+}
+@media (max-width: 375px){
+
+}
+@media (max-width: 320px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .log{
+        margin-left: 650px;
+        margin-top: 170px;
+    }
+    .boxa{
+        display: block;
+    }
+    .image2{
+        margin: 0;
+    }
+    .pic{
+        text-align: center;
+    }
+    .ilike{
+        font-size: 10px;
+    }
+    .login{
+        display: block;
+        text-align: center;
+    }
+}

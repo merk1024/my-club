@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="margin: 0; background: #0C1417">
+">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
 <header>
@@ -44,17 +46,75 @@
                 <img src="image/box1.png" alt="">
         </div>
         <div class="images2">
-                <img src="image\pexels-leon-ardho-1552252.png" alt="">
+            <img src="image/pexels-leon-ardho-1552252.png" alt="">
+            <img id="kik" src="image/5405ф.png" alt="" style="margin: 46px;">
         </div>
     </div>
     
-    <div class="pic">   <button id="ho">Получить консультацию</button></div>
-    <div class="text">
+    <div class="pic">
         <h1 id="hohle">Новый образ жизни</h1>
-        <p id="hohlo">Став частью нашей команды, вы сможете изменить привычный ритм жизни и сделать каждый свой день особенным, а формат наших тренировок позволит вам раскрыть потенциал вашего тела на 100%.</p>
+        <p id="hohlo">Став частью нашей команды, вы сможете изменить <br>привычный ритм жизни и сделать каждый свой день<br> особенным, а формат наших тренировок позволит<br> вам раскрыть потенциал вашего тела на 100%.</p>
+
+        <button id="ho">Получить консультацию</button>
     </div>
-    
+
 </div>
-<script src="js.js"></script>
+    <div class="ilike">
+        <div class="coh1">
+            <img src="image/Vector.png" alt="">
+            <h4>Полностью укомплектованный зал</h4>
+        </div>
+        <div class="coh2">
+            <img src="image/Vector%20(1).png" alt="">
+            <h4>Профессиональное оборудование</h4>
+        </div>
+        <div class="coh3">
+            <img src="image/Vector%20(2).png" alt="">
+            <h4>Удобное расположение в центре города</h4>
+        </div>
+        <div class="coh4">
+            <img src="image/Vector%20(3).png" alt="">
+            <h4>Доступная стоимость занятий</h4>
+        </div>
+
+    </div>
+    <div class="box2">
+        <h1>Галерея</h1>
+        <div class="gal">
+            <div class="gol">
+        <div class="image1">
+            <img src="image/STK_6966ф.png" alt="">
+        </div>
+        <div class="image2">
+            <img src="image/STK_7858.png" alt="">
+        </div>
+        </div>
+            <div class="gool">
+        <div class="image3">
+            <img src="image/STK_7899.png" alt="">
+        </div>
+        <div class="image4">
+            <img src="image/5382ф.png" alt="">
+        </div>
+            </div>
+    </div>
+    </div>
+<biv class="1231312">
+
+    <div id="map" style="width:100%;height:400px;"></div>
+
+    <script>
+        function myMap() {
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async defer></script>
+</biv>
+
 </body>
 </html>
